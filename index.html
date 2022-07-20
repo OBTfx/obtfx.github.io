@@ -55,7 +55,8 @@
         //
         // Connecting to the blockchain and specifying the browser
         if(chainReview == "currentNet") {
-          var web3 = new Web3(new Web3.providers.HttpProvider("https://connect.pichain.io"));
+          // var web3 = new Web3(new Web3.providers.HttpProvider("https://connect.pichain.io"));
+          var web3 = new Web3(new Web3.providers.HttpProvider("http://18.196.105.55:23001"));
           var urlEXPLORER = "https://blockexplorer.pichain.io/";
           console.log("web3.js v" + web3.version);
           console.log("Consulting in current blockchain...")
